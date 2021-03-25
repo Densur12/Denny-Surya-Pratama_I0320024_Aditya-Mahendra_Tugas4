@@ -1,4 +1,4 @@
-s = "mimpi siaran di tivi"
+s = "Str membanggain ome!"
 
 # Panjangnya harus 20
 print("panjang dari s = %d" % len(s))
