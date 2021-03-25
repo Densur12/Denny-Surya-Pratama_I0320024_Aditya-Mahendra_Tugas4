@@ -10,11 +10,11 @@ print("Kemunculan pertama a = %d" % s.index("a"))
 print("a muncul sebanyak %d kali" % s.count("a"))
 
 # memotong string berdasarkan index
-print("Lima karakter pertama adalah '%s'" % s[:5])
-print("Lima karakter berikutnya adalah '%s'" % s[5:10])
-print("Karakter ketiga belas adalah '%s'" % s[12])
-print("Karakter dengan indeks ganjil adalah '%s'" % s[1::2])
-print("Lima karakter terakhir adalah '%s'" % s[-5:])
+print("Lima karakter pertama adalah '%s'" % s[:5])           # Start to 5
+print("Lima karakter berikutnya adalah '%s'" % s[5:10])      # 5 to 10
+print("Karakter ketiga belas adalah '%s'" % s[12])           # Just number 12
+print("Karakter dengan indeks ganjil adalah '%s'" % s[1::2]) #(0-based indexing)
+print("Lima karakter terakhir adalah '%s'" % s[-5:])         # 5th-from-last to end# konversikan ke upercase
 
 # konversikan ke upercase
 print("String dalam huruf besar: %s" % s.upper())
